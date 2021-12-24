@@ -1,0 +1,37 @@
+{
+  "name": "ytt_v2",
+  "version": "1.0.0",
+  "description": "\"# YTT_v2\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyuing/YTT_v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyuing/YTT_v2/issues"
+  },
+  "homepage": "https://github.com/kyuing/YTT_v2#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "pdfkit": "^0.13.0",
+    "python-shell": "^3.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "vercel": "^23.1.2"
+  }
+}

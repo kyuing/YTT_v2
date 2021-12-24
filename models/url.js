@@ -24,19 +24,3 @@ var urlSchema = new mongoose.Schema(
   // { strict: false }
 );
 module.exports = mongoose.model("URL", urlSchema);
-
-
-// var backupSchema = new mongoose.Schema(
-//   {
-//     url: { type: String },
-//     tt_url: { type: String },
-//     // url: {
-//     //   work: mongoose.SchemaTypes.Url,
-//     //   profile: mongoose.SchemaTypes.Url,
-//     // },
-//     transcript: { type: String },
-//   },
-//   { timestamps: true }
-//   // { strict: false }
-// );
-// module.exports = mongoose.model("BACKUP", backupSchema);

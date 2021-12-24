@@ -27,7 +27,7 @@ const dbURI = process.env.DB_URL;
 mongoose
   .connect(dbURI, {
     useNewUrlParser: true,
-    useFindAndModify: false,
+    // useFindAndModify: false,
     useUnifiedTopology: true,
   })
   .then((result) => console.log("connected to db"))
