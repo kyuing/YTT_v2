@@ -20,7 +20,7 @@
   <!-- <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"> -->
   <!-- <link href="../css/main.css" rel="stylesheet" type="text/css"> -->
 
-  <title>YoutubeToText</title>
+  <title>YTT</title>
 
 </head>
 
@@ -30,7 +30,7 @@
   <!-- https://stackoverflow.com/questions/42401606/how-to-hide-collapsible-bootstrap-navbar-on-click -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top sticky">
     <div class="container">
-      <a class="navbar-brand" href="../index.html">YoutubeToText</a>
+      <a class="navbar-brand" href="../index.html">YTT</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -60,13 +60,7 @@
   <div class="container text-center mt-5 mb-3" id="main-container">
       <div class="text-center mb-3">
         <form enctype="application/json" action="/ytt" method="post" class="pt-5" id="form">
-          <!-- <h2>Enter a Youtube video URL</h2> -->
           <div class="form-group mt-3 mb-0">
-            <!-- 
-              <input id="url-search-input" class="form-control mt-3" type="url" name="url" 
-              placeholder="URL SEARCH:  enter a Youtube video URL" pattern="https://.*" required> 
-            -->
-            {{!-- pattern="https://(www\.)?youtu.*"  --}}
             <input 
               id="url-search-input" class="form-control mt-3" type="url" name="url" 
               placeholder="URL SEARCH:  enter a Youtube video URL" pattern="https://(www)?(\.)?(m\.)?youtu.*" 
@@ -109,14 +103,14 @@
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  What is YoutubeToText and how does it work ? 
+                  What is YTT and how does it work ? 
                 </button>
               </h2>
             </div>
         
             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                <p><a href="https://youtubetotext.online"><b>YoutubeToText</b></a> is a service that you can read Youtube video transcript.<br>
+                <p><a href="../index.html"><b>YTT</b></a> is a service that you can read Youtube video transcript.<br>
                   All you have to do is to get and copy Youtube video URL/address.
                 </p>
                 <p>&#9728; If you've already copied a Youtube video URL, paste it into the <a href="#main-container" style="color: #dc3545;"><b>URL SEARCH</b></a> form.</p>	
@@ -189,7 +183,7 @@
   <footer class="footer">
     <div class="container text-center">
       <span class="text-muted">&copy; 2021 
-        <a href="https://www.youtubetotext.online/">YoutubeToText</a>
+        <a href="../index.html">YTT</a>
       </span> |
       <span><a href="mailto:hello@youtubetotext.online">email</a></span>
       <!-- <span style="font-size: 30px"><a href="mailto:hello@youtubetotext.online">&#9993;</a></span> -->
