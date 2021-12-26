@@ -23,6 +23,8 @@ app.listen(port, function (err) {
   console.log(`Listening on  ${port} `);
 });
 
+
+/**********************************************************
 const dbURI = process.env.DB_URL;
 mongoose
   .connect(dbURI, {
@@ -32,3 +34,4 @@ mongoose
   })
   .then((result) => console.log("connected to db"))
   .catch((err) => console.log(err));
+  ********************************************************/

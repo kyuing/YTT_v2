@@ -121,7 +121,7 @@
                         <button id="{{this.languageCode}}_{{this.kind}}" onclick="manageScript()" kind="{{this.kind}}">{{this.name}}</button>
                         <p id="script_{{this.languageCode}}_{{this.kind}}" class="hideScript" kind="{{this.kind}}">
                           <br>
-                          <a href="https://ytt-api.herokuapp.com/ytt/api/{{../this.parentId}}/script?q={{this.vssId}}&pdf=true">Download PDF</a>
+                          <a href="https://ytt-api.herokuapp.com/ytt/api/{{../this.parentId}}/script?q={{this.vssId}}&pdf=true" target="_blank">Download PDF</a>
                           <br><br>
                           {{this.script}}
                         </p>

@@ -1,9 +1,5 @@
-const URL = require("./models/url"),
-  rp = require("request-promise"),
-  axios = require("axios"),
+const axios = require("axios"),
   Handlebars = require("handlebars"),
-  // querystring = require('querystring'),
-  // url = require('url'),
   fs = require("fs");
 
 const API_KEY = process.env.YT_DATA_API_KEY;
