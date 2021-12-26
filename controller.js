@@ -114,7 +114,8 @@ exports.getDoc = function (req, res) {
         //this wway works, url (http status) is too long, though.
         const {data} = await axios.get('https://ytt-api.herokuapp.com/ytt/api/' + req.params.id + '/scripts');
         if(data) {
-          
+          data.parentId = req.params.id;
+          console.log(data.parentId)
           data.videoId = req.query.videoId;
           data.title = titleTemp;
           data.url = req.query.url;
