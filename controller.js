@@ -96,10 +96,6 @@ exports.getError = function (req, res) {
 
 exports.getDoc = function (req, res) {
  
-
-  //need to add some big butns as a link
-  //where each link redirect to each of the endpoints
-
   if(req.query.q === "scripts") {
 
     // console.log(data)
@@ -166,8 +162,7 @@ exports.postDoc = function (req, res) {
 };
 
 //Since getDocs is not the main endpoint compared to getDoc,
-//getDocs only returns JSON docs existing in the DB to the browser
-//if decided to add it on deploying.
+//just return all JSON docs in DB on req
 exports.getDocs = function (req, res) {
  
   (async () => {   
